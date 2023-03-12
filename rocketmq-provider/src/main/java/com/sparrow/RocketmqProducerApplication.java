@@ -22,6 +22,12 @@ public class RocketmqProducerApplication {
         //发送异步消息
         //producerService.sendAsyncMessage();
         //发送单向消息
-        producerService.sendOneWayMessage();
+        //producerService.sendOneWayMessage();
+        //发送顺序消息
+        //producerService.sendOrderlyMessage();
+        //发送延迟消息
+        //producerService.sendDelayMessage();
+        //发送事物消息
+        producerService.sendTransactionMessage();
     }
 }

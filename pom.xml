@@ -12,6 +12,8 @@
     <module>rocketmq-provider</module>
     <module>rocketmq-consumer</module>
     <module>rocketmq-consumer1</module>
+    <module>rocketmq-consumer-order</module>
+    <module>rocketmq-consumer-transaction</module>
   </modules>
 
   <name>rocketmqt1</name>
